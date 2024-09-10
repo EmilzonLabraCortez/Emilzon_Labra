@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consultora de Recursos Humanos</title>
+</head>
+
+<body><!--BODY-->
+
+    <header><!--HEADER-->
+        <H1>Consultora de Recuros Humanos</H1>
+        <nav id="list-header">
+            <ul>
+                <li><a href="#n-servicios">Nuestros Servicios</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#casos-exitos">Casos de exitos</a></li>
+                <li><a href="#form-contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main><!--MAIN-->
+        <div class="content">
+            <section id="n-servicios" class="section">
+                <h2>Nuestros servicios</h2>
+                <div class="grid-container">
+                  <div class="grid-item">
+                    <h3>Atraemos a los mejores talentos</h3>
+                    <p>Te ayudamos a encontrar a los candidatos ideales para tu empresa a través de estrategias de reclutamiento innovadoras y una red de contactos extensa. Lograremos que tu proceso de selección sea eficiente y te permita contratar a personas que impulsen tu crecimiento.</p>
+                  </div>
+                  <div class="grid-item">
+                    <h3>Desarrollamos el potencial de tu equipo</h3>
+                    <p>Creamos programas de capacitación y desarrollo de talento personalizados para tu empresa. Impulsamos las habilidades y conocimientos de tus empleados, aumentando su motivación, compromiso y rendimiento.</p>
+                  </div>
+                  <div class="grid-item">
+                    <h3>Optimizamos tu clima laboral</h3>
+                    <p>Te ayudamos a crear un entorno de trabajo positivo y productivo.  Diseñamos estrategias para mejorar la comunicación, la colaboración y la resolución de conflictos, fomentando el bienestar y la satisfacción de tus empleados.</p>
+                  </div>
+                  <div class="grid-item">
+                    <h3>Maximizamos tu retorno de inversión en Recursos Humanos</h3>      
+                    <p>Analizamos tus necesidades y te brindamos soluciones estratégicas de Recursos Humanos que se ajusten a tu presupuesto. Te ayudamos a optimizar tus procesos, reducir costos y obtener un mayor rendimiento de tu inversión en capital humano.</p>
+                  </div>
+                </div>
+            </section>
+
+            <div class="line">
+                <section id="experiencia" class="section">
+                    <div class="img">
+                        <h2>Experiencia</h2>
+                        <h4>Trabajo en equipo </h4>
+                        <img src="https://www.iebschool.com/blog/wp-content/uploads/2015/06/pexels-fauxels-3183197.jpg" alt="Trabajo en equipo">
+                    </div>
+                    <div class="img">
+                        <h4>Gestion de recursos humanos</h4>
+                        <img src="https://tecnosoluciones.com/wp-content/uploads/2023/03/tecnologia-gestion-recursos-humanos.png" alt="Gestio-recursos">
+                    </div>
+                </section>
+                
+                <section id="casos-exitos" class="section">
+                     <h2>Casos de Éxito</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Objetivo</th>
+                        <th>Resultados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estacion de servicios Copec</td>
+                        <td>Optimización de Recursos</td>
+                        <td>Aumento del 20% en la eficiencia</td>
+                    </tr>
+                    <tr>
+                        <td>Empresa de servicios fruticolas</td>
+                        <td>Capacitación de Personal</td>
+                        <td>Mejora en la productividad</td>
+                    </tr>
+                </tbody>
+            </table>
+                </section>
+            </div>
+                <form id="form-contact" action="mailto:labraemilzon@gmail.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <legend>Formulario de Contacto de Aspirantes</legend>
+                        
+                        <label for="name">Nombre del Aspirante:</label>
+                        <input type="text" id="name" name="Nombre" placeholder="Nombre" required>
+                        <br>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="Correo" placeholder="Correo" required>
+                        <br>
+                        <label for="phone">Teléfono Móvil:</label>
+                        <input type="tel" id="phone" name="Telefono" placeholder="Telefono" required>
+                        <br>
+                        <label for="country">País:</label>
+                        <select id="country" name="Pais" required>
+                            <option value="">Seleccione su país</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="chile">Chile</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                        <br>
+                        <label for="message">Mensaje:</label><br>
+                        <textarea id="message" name="Comentario" placeholder="comentario" required></textarea>
+                        <br>
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+       <p>&copy;Consultora de recursos</p>
+    </footer>
+</body>
+</html>
